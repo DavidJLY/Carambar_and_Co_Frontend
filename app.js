@@ -1,5 +1,6 @@
 // URL de l'API backend
-const API_URL = "http://localhost:3000/v1/jokes";
+// const API_URL = "http://localhost:3000/v1/jokes";
+const API_URL = "https://carambar-and-co-backend.onrender.com/v1/jokes";
 
 const randomJokeBtn = document.getElementById("randomJokeBtn");
 const randomJokeDisplay = document.getElementById("randomJoke");
@@ -40,5 +41,5 @@ async function addNewJoke(event) {
 }
 
 //EventListener
-randomJokeBtn.addEventListener("click", randomJoke); // Clic sur le bouton pour une blague aléatoire
+randomJokeBtn.addEventListener("click", randomJoke);
 addJokeForm.addEventListener("submit", addNewJoke);
