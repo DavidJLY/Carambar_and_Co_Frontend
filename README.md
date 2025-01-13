@@ -1,4 +1,4 @@
-Carambar & Co
+# Carambar & Co
 
 Simple page permettant d'ajouter et d'afficher des blagues de façon aléatoire.
 
